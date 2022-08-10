@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-/* font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif; */
-
 :root {
     --main-bg-color: hsl(233, 47%, 7%);
     --card-bg-color: hsl(244, 38%, 16%);
