@@ -32,9 +32,9 @@ body {
 }
 
 .main-container {
-    margin: 24px;
+    margin: 1.5rem;
     min-height: fit-content;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background-color: var(--card-bg-color);
     overflow: hidden;
 }
@@ -55,31 +55,31 @@ body {
 }
 
 .text-section {
-    padding: 40px 32px 32px 32px;
+    padding: 2.5rem 2rem 2rem 2rem;
     text-align: center;
 }
 
 h1 {
     font-weight: 700;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 1.75rem;
+    line-height: 2rem;
     color: var(--white);
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 span {
     font-weight: 700;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 1.75rem;
+    line-height: 2rem;
     color: var(--accent-color);
 }
 
 .main-text {
-    line-height: 25px;
+    line-height: 1.5625rem;
     color: var(--main-paragraph);
     mix-blend-mode: normal;
     opacity: 0.75;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .stats {
@@ -89,21 +89,21 @@ span {
 
 .number {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 29.05px;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
     color: var(--white);
-    margin-bottom: 2px;
+    margin-bottom: 0.125rem;
 }
 
 .item {
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: var(--stat-heading);
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     text-transform: uppercase;
     mix-blend-mode: normal;
     opacity: 0.6;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .item.last {
@@ -112,7 +112,7 @@ span {
 
 /* --MEDIA QUERIES-- */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 950px) {
     .desktop-image {
         display: block;
         mix-blend-mode: multiply;
@@ -127,8 +127,8 @@ span {
     .main-container {
         display: flex;
         flex-direction: row-reverse;
-        max-width: 1110px;
-        height: 446px;
+        max-width: 69.375rem;
+        height: fit-content;
     }
 
     .image {
@@ -138,22 +138,22 @@ span {
     .text-section {
         width: 50%;
         text-align: start;
-        padding: 71px 95px 59px 72px;
+        padding: 4.4375rem 5.9375rem 3.6875rem 4.5rem;
     }
 
     h1 {
-        font-size: 36px;
-        line-height: 44px;
-        margin-bottom: 25px;
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+        margin-bottom: 1.5625rem;
     }
 
     span {
-        font-size: 36px;
-        line-height: 44px;
+        font-size: 2.25rem;
+        line-height: 2.75rem;
     }
 
     .main-text {
-        margin-bottom: 72px;
+        margin-bottom: 4.5rem;
     }
 
     .stats-container {
@@ -167,6 +167,6 @@ span {
     }
 
     .number {
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
     }
 }
